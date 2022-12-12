@@ -1,0 +1,78 @@
+/*
+ * Markdown PDF CSS
+ */
+
+body {
+  font-family: Manrope, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+  padding: 0 12px;
+  color: #111;
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+pre {
+  border-radius: 0%;
+  background-color: #1f2937;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+  padding: 23px;
+  line-height: 19px;
+}
+
+.hljs {
+  border-radius: 2%;
+}
+
+blockquote {
+  padding: 2px 8px;
+  background: rgba(127, 127, 127, 0.1);
+  border-color: rgba(241, 0, 0, 0.5);
+}
+
+.emoji {
+  height: 2em;
+}
+
+code {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs)>code {
+  color: #111;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #f0efed;
+  border-radius: 10%;
+  padding: 2px;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+  page-break-after: always;
+}
+
+.warning {
+  background-color: cyan;
+  border-radius: 5%;
+  width: fit-content;
+}
+
+.tag {
+  border-radius: 5%;
+  width: fit-content;
+  background-color: #0000ff;
+  color: white;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
